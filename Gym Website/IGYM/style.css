@@ -1,0 +1,304 @@
+*{
+    padding: 0; margin: 0%; box-sizing: border-box; font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 100%;
+    background: black;
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 80%,0% 100%);
+}
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.logo{
+font-size: 50px;
+font-weight: bold;
+letter-spacing: 2px;
+}
+.p-title{
+    color: #000;
+}
+.name{
+    color: black;
+}
+.texts{
+    color: #000;
+}
+.textt{
+    color: #000;
+}
+#blue{
+    color: #74b9ff;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.menu a:first-child{
+    border-bottom: 1px solid #74b9ff;
+}
+.btn{
+    background-color: #74b9ff;
+    padding: 10px 20px ;
+    border-radius: 8px;
+    border: #74b9ff 1px solid;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background: transparent;
+
+}
+.btn1{
+    background-color: #74b9ff;
+    padding: 10px 10px ;
+    border-radius: 3px;
+    border: #1e2021 1px solid;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.left{
+    flex-basis: 50%;
+}
+.right{
+    flex-basis: 50%;
+    max-width: 400px;
+
+}
+.right h1{
+    color: #74b9ff;
+    font-size: 50px;
+}
+.right p{
+    font-size: 20px;
+    margin: 10px 10px;
+}
+.one{
+    color: #74a5ff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+
+}
+.two{
+    color: #1cc788;
+    font-size: 30px;
+}
+.name{
+    font-weight: bold;
+}
+.name1{
+    text-transform: uppercase  ;
+}
+#about{
+padding: 40px 0px ;
+}
+.about-row{
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-right-col{
+    flex-basis: 50%;
+}
+.about-right-col img{
+    width: 80%;
+}
+.about-left-col{
+    max-width: 400px;
+    margin: auto;
+}
+.about-left-col h1{
+    font-size: 50px;
+}
+.about-left-col p{
+    font-size: 20px;
+
+}
+/* ......................... */
+#signup{
+    padding-top:50px ;
+    padding-bottom: 20px;
+    background: rgba(0, 0, 1, 0.2);
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 80%,0% 100%);
+
+}
+.signup-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup-left-col{
+    flex-basis: 50%;
+    text-align: center;
+}
+.signup-left-col img{
+    width: 80%;
+}
+.signup-right-col{
+    flex-basis: 50%;
+}
+.signup-right-col h1{
+    font-size: 90px;
+}
+.signup-right-col h2{
+    font-size: 45px;
+    letter-spacing: 60px;
+    color: rgba(0, 0,0,0.6);
+    margin: 10px 8px;
+}
+/* ......SERVICE */
+#service{
+    /* margin: 20px; */
+    padding: 50px 0px;
+    background-image: url(./gym2.jpg);
+    background-repeat: no-repeat;
+}
+.service1{
+    border-bottom: 5px solid black;
+    margin: 20px;
+}
+.service-info{
+    text-align: center;
+}
+.service-info h1{
+    font-size: 50px;
+}
+.service-info p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+.service-row{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-auto-rows: minmax(100px,auto);
+    /* grid-template-rows: repeat(2,100px); */
+    grid-gap: 3em;
+    justify-content: center;
+    
+}
+.service-box{
+    box-shadow: 2px 2px 5px gray ;
+}
+h2{
+    margin: 10px;
+    color: white;
+    text-transform: uppercase;
+
+}
+p{
+    margin:  10px;
+    color: white;
+    text-transform: uppercase;
+
+}
+.service-box i{
+    background: #0984e3;
+    color: white;
+    font-size: 20px;
+    padding: 2px ;
+    margin: 5px 10px;
+}
+/*
+gallery sectioin.................................
+*/
+
+.service-box img{
+    width: 100%;
+}
+/* conatact section........................................ */
+
+#contact{
+    padding: 30px 0px;
+    /* clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 80%,0% 100%); */
+    margin-bottom: 30px;
+    /* background-image: url(./gym7.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.conatct-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-cont{
+    flex-basis: 50%;
+    padding-top: 20px;
+}
+.right-cont{
+    flex-basis: 50%;
+    
+}
+.right-cont h1{
+    padding: 20px;
+}
+.form{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.form input[type="text"]{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.btn2{
+    color: white;
+    background-color: #74a5ff;
+    border: none;
+    border-radius: 8px;
+    font-size: 25px;
+    padding: 5px 30px;
+}
+.cont{
+    color: #1cc788;
+}
+/* foooter...................... */
+
+#footer{
+    background-color: #000;
+    /* clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 80%,0% 100%); */
+    height: 80px;
+    
+
+}
+.main{
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.slider{
+    color: white;
+    border: 1px solid #74a5ff;
+}
